@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "builder-add": {
+      "description": "This schematic will be executed when use the command builder add [collection-name]",
+      "factory": "./builder-add/builder-add.factory#builderAddFactory",
+      "schema": "./builder-add/schema.json"
+    },
+    "modify-ts-file": {
+      "description": "a test to modify a ts file",
+      "factory": "./builder-generate/modify-ts-file/modify-ts-file.factory#modifyTsFileFactory",
+      "schema": "./builder-generate/modify-ts-file/schema.json"
+    }
+  }
+}
