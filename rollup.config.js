@@ -59,6 +59,7 @@ const baseExternal = [
   'winston-console-format',
   'jsonc-parser',
   'typescript',
+  'ts-morph'
 ];
 
 // Rollup configuration for the main build
