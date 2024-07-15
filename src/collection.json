@@ -10,6 +10,11 @@
       "description": "a test to modify a ts file",
       "factory": "./builder-generate/modify-ts-file/modify-ts-file.factory#modifyTsFileFactory",
       "schema": "./builder-generate/modify-ts-file/schema.json"
+    },
+    "modify-html-file": {
+      "description": "this schematic will modify a html file",
+      "factory": "./builder-generate/modify-html-file/modify-html-file.factory#modifyHtmlFileFactory",
+      "schema": "./builder-generate/modify-html-file/schema.json"
     }
   }
 }

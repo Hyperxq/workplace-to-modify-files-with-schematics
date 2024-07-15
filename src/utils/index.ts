@@ -4,6 +4,7 @@ export * from './dependencies';
 export * from './eol';
 export * from './json-file';
 export * from './modify-angular-files';
+export * from './modify-html-files';
 export * from './package-json';
 export * from './parse-name';
 export * from './prompt';
